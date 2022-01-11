@@ -203,14 +203,15 @@ body {
   left: 50%;
   margin-left: -250px;
 }
+
 .main-cub{
   width: 150px;
   height: 150px;
   transform: rotateX(-180deg) rotateY(180deg) rotateZ(180deg);
   transform-style: preserve-3d;
-  transition-duration: 3s;
+  transition-duration: 2s;
   animation-name: cubes;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-iteration-count: 1;
 }
 @keyframes cubes{
@@ -231,11 +232,11 @@ body {
   }
 }
 .main-cub:hover{
-  transition-duration: 3s;
+  transition-duration: 2s;
   transform: rotateX(150deg) rotateY(-90deg) rotateZ(150deg);
 }
 .main-cub:hover:nth-child(2) {
-  transition-duration: 3s;
+  transition-duration: 2s;
   transform: rotateX(180deg) rotateY(-90deg) rotateZ(180deg);
 }
 .main-cub:nth-child(2) .right {
